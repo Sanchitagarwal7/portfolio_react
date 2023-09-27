@@ -88,16 +88,23 @@ body{
     inset 0 0 1.3rem #bc13fe;
 }
 
+
 img{
     width: 75%;
     border-radius: 100%;
-    box-shadow: 0 0 .2rem rgb(247,250,247),
-    0 0 1rem rgb(247,250,247),
-    0 0 .2rem #E90C7E,
-    0 0 2rem #E90C7E,
-    0 0 2rem #E90C7E,
-    0 0 2rem #E90C7E;;
+    box-shadow: 0 0 .2rem rgb(196,196,196),
+    0 0 .2rem rgb(196,196,196),
+    0 0 1rem rgb(196,196,196),
+    0 0 1rem rgb(196,196,196),
+    0 0 2rem #FE052B,
+    0 0 2rem #FE052B,
+    0 0 .2rem #FE052B,
+    0 0 2rem #FE052B,
+    0 0 2rem #FE052B,
+    0 0 5rem #FE052B;
 }
+
+
 
 #obi{
     text-shadow: 0 0 5px #FE0505, 0 0 15px #FE0505, 0 0 20px #FE0505, 0 0 40px #FE0505, 0 0 60px #ff0000, 0 0 10px #FE0505, 0 0 98px #ff0000;
@@ -182,3 +189,98 @@ Button{
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
 }
+
+#LinkedIn{
+    position: relative; 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+  #LinkedIn:hover {
+    color: #106BC4;
+    background: #fff;
+    box-shadow: 0 0 5px #106BC4, 0 0 15px #106BC4, 0 0 20px #106BC4, 0 0 40px #106BC4, 0 0 60px #106BC4, 0 0 10px #106BC4, 0 0 98px #106BC4;
+  }
+
+  #Github{
+    position: relative; 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+  #Github:hover {
+    color: #fff;
+    background: #8D30AB;
+    box-shadow: 0 0 5px #8D30AB, 0 0 15px #8D30AB, 0 0 20px #8D30AB, 0 0 40px #8D30AB, 0 0 60px #8D30AB, 0 0 10px #8D30AB, 0 0 98px #8D30AB;
+  }
+
+  #email{
+    position: relative; 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+  #email:hover {
+    color: red;
+    background: #ECEFF1;
+    box-shadow: 0 0 5px #ECEFF1, 0 0 15px #ECEFF1, 0 0 20px #ECEFF1, 0 0 40px #ECEFF1, 0 0 60px #ECEFF1, 0 0 10px #ECEFF1, 0 0 98px #ECEFF1;
+  }
+
+  #Instagram{
+    position: relative; 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+  #Instagram:hover {
+    color: #fff;
+    background-image: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    box-shadow: 0 0 5px #EC4C54, 0 0 15px #EC4C54, 0 0 20px #EC4C54, 0 0 40px #EC4C54, 0 0 60px #EC4C54, 0 0 10px #EC4C54, 0 0 98px #EC4C54;
+  }
+
+  #Twitter{
+    position: relative; 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+  #Twitter:hover {
+    color: #1DA1F1;
+    background: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff, 0 0 10px #fff, 0 0 98px #fff;
+  }
