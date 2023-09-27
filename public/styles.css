@@ -1,10 +1,20 @@
+                                                                /* BODY */
+
+
 body{
-    background-color: #0d0015;
+    background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
     color: #fff;
     font-family: 'Tilt Neon', cursive;
+    background-size:cover;
+    margin:0;
 }
+
+
+                                                                /* NAVBAR */
+
+
 .navbar{
-    background-color: #1B002B;
+    background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -19,15 +29,6 @@ body{
 
 .navbar-brand:hover{
     color: #fff;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #bc13fe,
-    0 0 82px #bc13fe,
-    0 0 92px #bc13fe,
-    0 0 102px #bc13fe,
-    0 0 151px #bc13fe;
     box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
     0 0 2rem #bc13fe,
@@ -89,6 +90,9 @@ body{
 }
 
 
+                                                                /* BANNER */
+
+
 img{
     width: 75%;
     border-radius: 100%;
@@ -134,27 +138,6 @@ img{
   }
 }
 
-@keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-      text-shadow: 0 0 5px #FE0505, 0 0 15px #FE0505, 0 0 20px #FE0505, 0 0 40px #FE0505, 0 0 60px #ff0000, 0 0 10px #FE0505, 0 0 98px #ff0000;
-      color: #fff;
-  }
-}
-
 #name
 {
     font-size: 75px;
@@ -162,7 +145,8 @@ img{
     text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
-#banner p{
+p{
+    font-size: larger;
     margin-top: 5vh;
     line-height: 2.5;
 }
@@ -189,6 +173,10 @@ Button{
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
 }
+
+
+                                                            /* SOCIALS */
+
 
 #LinkedIn{
     position: relative; 
@@ -284,3 +272,116 @@ Button{
     background: #fff;
     box-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff, 0 0 10px #fff, 0 0 98px #fff;
   }
+
+  #about{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Neonderthaw', cursive;
+    text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 10px #00C6FE, 0 0 98px #00C6FE;
+    color: #fff;
+  }
+
+
+                                                            /* TIMELINE */
+
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* cards container */
+.cards {
+  position: relative;
+}
+
+/* setting padding based on even or odd */
+.cards:nth-child(odd) {
+  padding: 30px 0 30px 30px;
+}
+.cards:nth-child(even) {
+  padding: 30px 30px 30px 0;
+}
+/* Global ::before */
+.cards::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid orangered;
+}
+
+/* Setting the border of top, bottom, left */
+.cards:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+/* Setting the border of top, bottom, right */
+.cards:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+/* Removing the border if it is the first cards */
+.cards:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+
+/* Removing the border if it is the last cards  and it's odd */
+.cards:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Removing the border if it is the last cards  and it's even */
+.cards:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Title of the cards */
+.title {
+  color: #fff;
+  text-shadow: 0 0 5px orangered, 0 0 15px orangered, 0 0 20px orangered, 0 0 40px orangered, 0 0 60px orangered, 0 0 10px orangered, 0 0 98px orangered;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0.3em solid orangered;
+}
+
+/* text right if the cards is even  */
+.cards:nth-child(even) > .info > .title {
+  text-align: right;
+}
+
+/* setting dot to the left if the cards is odd */
+.cards:nth-child(odd) > .info > .title::before {
+  left: -45px;
+}
+
+/* setting dot to the right if the cards is odd */
+.cards:nth-child(even) > .info > .title::before {
+  right: -45px;
+}

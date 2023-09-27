@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import image from '../IMG_20230807_012007_120.jpg';
 import ReactTyped from 'react-typed';
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div>
     <section id='banner' className='my-5'>
     <Container>
-        <Row>
+        <Row style={{marginTop: "10vh"}}>
             <Col xs={12} md={6} xl={7}>
             <h6 id='obi'>Hello There!</h6>
             <h1 id='name'> I am Sanchit Agarwal</h1>
@@ -20,7 +20,7 @@ const Home = () => {
             <a id='Instagram' className='mx-2 my-3' href='/'><i class="fa-brands fa-instagram fa-xl"></i></a>
             <a id='email' className='mx-2 my-3' href='/'><i class="fa-regular fa-envelope fa-xl"></i></a>
             </Col>
-            <Col xs={12} md={6} xl={5}  className="image-cropper" style={{textAlign: "center"}}>
+            <Col xs={12} md={6} xl={5} style={{textAlign: "center"}}>
             <img className="floating" src={image} alt="my_picture" />
             </Col>
         </Row>
