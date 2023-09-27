@@ -273,12 +273,37 @@ Button{
     box-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff, 0 0 10px #fff, 0 0 98px #fff;
   }
 
+                                                          /* ABOUT */
+
   #about{
     text-align: center;
     font-size: 60px;
     font-family: 'Neonderthaw', cursive;
-    text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 10px #00C6FE, 0 0 98px #00C6FE;
+    text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 80px #00C6FE, 0 0 98px #00C6FE;
     color: #fff;
+    animation: blink 11s infinite;
+    -webkit-animation: ablink 11s infinite;
+  }
+
+  @-webkit-keyframes ablink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 80px #00C6FE, 0 0 98px #00C6FE;
+        color: #fff;
+    }
   }
 
 
@@ -384,4 +409,35 @@ Button{
 /* setting dot to the right if the cards is odd */
 .cards:nth-child(even) > .info > .title::before {
   right: -45px;
+}
+
+#project-headline{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Neonderthaw', cursive;
+    text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
+    color: #fff;
+    animation: blink 10s infinite;
+    -webkit-animation: pblink 10s infinite;
+}
+
+@-webkit-keyframes pblink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+      text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
+      color: #fff;
+  }
 }
