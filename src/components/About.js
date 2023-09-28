@@ -8,11 +8,11 @@ const About = () => {
         <Row>
           <Col>
             <h1 id="about">About Me</h1>
-            <div class="timeline">
-              <div class="outer">
-                <div class="cards">
-                  <div class="info">
-                    <h3 class="title">Title 1</h3>
+            <div className="timeline">
+              <div className="outer">
+                <div className="cards">
+                  <div className="info">
+                    <h3 className="title">Title 1</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -21,9 +21,9 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                <div class="cards">
-                  <div class="info">
-                    <h3 class="title">Title 2</h3>
+                <div className="cards">
+                  <div className="info">
+                    <h3 className="title">Title 2</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
