@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
     <section id='banner' className='my-5'>
-    <Container>
-        <Row style={{marginTop: "10vh"}}>
+    <Container style={{marginTop: "10vh"}}>
+        <Row>
             <Col xs={12} md={6} xl={7}>
             <h6 id='obi'>Hello There!</h6>
             <h1 id='name'> I am Sanchit Agarwal</h1>
@@ -21,7 +21,7 @@ const Home = () => {
             <a id='email' className='mx-2 my-3' href='/'><i class="fa-regular fa-envelope fa-xl"></i></a>
             </Col>
             <Col xs={12} md={6} xl={5} style={{textAlign: "center"}}>
-            <img className="floating" src={image} alt="my_picture" />
+            <img className="floating my_pic" src={image} alt="my_picture" />
             </Col>
         </Row>
     </Container>

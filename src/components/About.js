@@ -4,8 +4,8 @@ import { Col, Row, Container } from "react-bootstrap";
 const About = () => {
   return (
     <div>
-      <Container>
-        <Row style={{ marginTop: "20vh" }}>
+      <Container style={{ marginTop: "20vh" }}>
+        <Row>
           <Col>
             <h1 id="about">About Me</h1>
             <div class="timeline">

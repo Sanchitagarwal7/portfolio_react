@@ -14,7 +14,6 @@ body{
 
 
 .navbar{
-    background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -93,7 +92,7 @@ body{
                                                                 /* BANNER */
 
 
-img{
+.my_pic{
     width: 75%;
     border-radius: 100%;
     box-shadow: 0 0 .2rem rgb(196,196,196),
@@ -382,7 +381,7 @@ Button{
 /* Title of the cards */
 .title {
   color: #fff;
-  text-shadow: 0 0 5px orangered, 0 0 15px orangered, 0 0 20px orangered, 0 0 40px orangered, 0 0 60px orangered, 0 0 10px orangered, 0 0 98px orangered;
+  text-shadow: 0 0 5px #FED700, 0 0 15px #FED700, 0 0 20px #FED700, 0 0 40px #FED700, 0 0 60px #FED700, 0 0 10px #FED700, 0 0 98px #FED700;
   position: relative;
 }
 
@@ -418,10 +417,10 @@ Button{
     text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
     color: #fff;
     animation: blink 10s infinite;
-    -webkit-animation: pblink 10s infinite;
+    -webkit-animation: plink 10s infinite;
 }
 
-@-webkit-keyframes pblink {
+@-webkit-keyframes plink {
   20%,
   24%,
   55% {
@@ -440,4 +439,52 @@ Button{
       text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
       color: #fff;
   }
+}
+
+
+
+#proj_tit{
+  color: #fff;
+  text-shadow: 0 0 5px #B8CAFE, 0 0 15px #B8CAFE, 0 0 20px #B8CAFE, 0 0 40px #B8CAFE, 0 0 60px #B8CAFE, 0 0 10px #B8CAFE, 0 0 98px #B8CAFE;
+  text-decoration:underline;
+}
+
+#proj_link{
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  padding: 3px;
+}
+
+#card-link{
+  color: #fff;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.git-link:hover{
+  color: #fff;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #bc13fe,
+  0 0 0.8rem #bc13fe,
+  0 0 2.8rem #bc13fe,
+  inset 0 0 1.3rem #bc13fe;
+}
+
+.live-link:hover{
+  color: #fff;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #DB2320,
+  0 0 0.8rem #DB2320,
+  0 0 2.8rem #DB2320,
+  inset 0 0 1.3rem #DB2320;
 }
