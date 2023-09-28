@@ -2,7 +2,9 @@
 
 
 body{
-    background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
+    /* background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
+     */
+     background-color: #1D1D1D;
     color: #fff;
     font-family: 'Tilt Neon', cursive;
     background-size:cover;
@@ -36,7 +38,7 @@ body{
     inset 0 0 1.3rem #bc13fe;
 }
 
-.nav-link:hover {
+.git-link:hover, .nav-link:hover {
     color: #fff;
     text-shadow:
     0 0 7px #fff,
@@ -416,29 +418,6 @@ Button{
     font-family: 'Neonderthaw', cursive;
     text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
     color: #fff;
-    animation: blink 10s infinite;
-    -webkit-animation: plink 10s infinite;
-}
-
-@-webkit-keyframes plink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-      text-shadow: 0 0 5px #C745FE, 0 0 15px #C745FE, 0 0 20px #C745FE, 0 0 40px #C745FE, 0 0 60px #C745FE, 0 0 80px #C745FE, 0 0 98px #C745FE;
-      color: #fff;
-  }
 }
 
 
@@ -461,30 +440,65 @@ Button{
   text-decoration: none;
 }
 
-.git-link:hover{
-  color: #fff;
-  text-shadow:
-  0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff;
-  box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #bc13fe,
-  0 0 0.8rem #bc13fe,
-  0 0 2.8rem #bc13fe,
-  inset 0 0 1.3rem #bc13fe;
-}
-
 .live-link:hover{
   color: #fff;
   text-shadow:
   0 0 7px #fff,
   0 0 10px #fff,
-  0 0 21px #fff;
+  0 0 21px #fff,
+  0 0 42px #DB2320,
+  0 0 82px #DB2320,
+  0 0 92px #DB2320,
+  0 0 102px #DB2320,
+  0 0 151px #DB2320;
   box-shadow: 0 0 .2rem #fff,
   0 0 .2rem #fff,
   0 0 2rem #DB2320,
   0 0 0.8rem #DB2320,
   0 0 2.8rem #DB2320,
   inset 0 0 1.3rem #DB2320;
+}
+
+                                                                    /* SKILLS */
+
+#skill-heading{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Neonderthaw', cursive;
+  text-shadow: 0 0 5px #FE0505, 0 0 15px #FE0505, 0 0 20px #FE0505, 0 0 40px #FE0505, 0 0 60px #ff0000, 0 0 10px #FE0505, 0 0 98px #ff0000;
+  color: #fff;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+.skill-name{
+  text-align: center;
+}
+
+.star {
+  text-align: center;
+}
+
+.skill-name{
+  text-shadow: 0 0 5px #03D101, 0 0 15px #03D101, 0 0 20px #03D101, 0 0 40px #03D101, 0 0 60px #03D101, 0 0 80px #03D101, 0 0 98px #03D101;
+}
+
+.star i{
+  padding: 5px;
+  text-shadow: 0 0 5px #1097F5, 0 0 15px #1097F5, 0 0 20px #1097F5, 0 0 40px #1097F5, 0 0 60px #1097F5, 0 0 80px #1097F5, 0 0 98px #1097F5;
+}
+
+#thanks{
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Neonderthaw', cursive;
+  text-shadow: 0 0 5px #011EFF, 0 0 20px #011EFF, 0 0 40px #011EFF;
+}
+
+#sanchit{
+  text-decoration: underline;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  border-color: #1097F5;
 }
