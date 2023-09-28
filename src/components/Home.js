@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
     <section id='banner' className='my-5'>
-    <Container style={{marginTop: "10vh"}}>
+    <Container style={{marginTop: "20vh"}}>
         <Row>
             <Col xs={12} md={6} xl={7}>
             <h6 className='text-shadow-red-blink'>Hello There!</h6>

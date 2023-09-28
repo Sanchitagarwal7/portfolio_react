@@ -14,7 +14,7 @@ const Cards = (props) => {
           <div className="d-flex justify-content-between proj_link">
             <span>
               <a className="git-link card-link" href="/">
-                Github
+                Code
               </a>
             </span>
             <span>

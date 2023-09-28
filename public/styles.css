@@ -405,24 +405,31 @@ Button {
 
                                                                 /* SKILLS */
 
-#skill-heading-size{
+#skill-heading{
   text-align: center;
 }
 
 .skill-align-center {
   text-align: center;
+  justify-content: center;
 }
 
 .skill-name {
-  text-shadow: 0 0 5px #03D101, 0 0 15px #03D101, 0 0 20px #03D101, 0 0 40px #03D101, 0 0 60px #03D101, 0 0 80px #03D101, 0 0 98px #03D101;
+  color: #a1a1af;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 5px solid #28242F;
+  border-radius: 20px;
 }
 
-.star i {
-  padding: 5px;
-  text-shadow: 0 0 5px #1097F5, 0 0 15px #1097F5, 0 0 20px #1097F5, 0 0 40px #1097F5, 0 0 60px #1097F5, 0 0 80px #1097F5, 0 0 98px #1097F5;
+.skill-name:hover{
+  transform: scale(1.2);
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
+                                                          /* FOOTER */
 #thanks {
   text-align: center;
   font-size: 75px;
