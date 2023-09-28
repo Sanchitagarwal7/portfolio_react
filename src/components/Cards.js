@@ -4,7 +4,6 @@ import Card from "react-bootstrap/Card";
 const Cards = (props) => {
   return (
     <>
-      <span>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
           <Card.Title className="proj_tit">{props.title}</Card.Title>
@@ -19,12 +18,11 @@ const Cards = (props) => {
             </span>
             <span>
               <a className="live-link card-link" href="/">
-                Live
+              <i class="fa-solid fa-link"></i>
               </a>
             </span>
           </div>
         </Card.Footer>
-      </span>
     </>
   );
 };

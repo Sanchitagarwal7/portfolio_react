@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const About = () => {
   return (
@@ -7,7 +8,10 @@ const About = () => {
       <Container style={{ marginTop: "20vh" }}>
         <Row>
           <Col>
-            <h1 id="about" className="center-60px">About Me</h1>
+          <span className="about-hinge">
+              <ScrollAnimation animateIn="animate__hinge" duration={3} animateOnce={true}><h1 className="center-60px about">About Me</h1></ScrollAnimation>
+              </span>
+              
             <div className="timeline">
               <div className="outer">
                 <div className="cards">

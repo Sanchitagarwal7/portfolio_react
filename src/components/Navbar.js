@@ -8,13 +8,13 @@ const Navbarr = () => {
     <>
     <Navbar expand="md" className="navbar">
       <Container>
-        <Navbar.Brand href="/" className="navbar-brand">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="/" className="nav-link">About</Nav.Link>
-            <Nav.Link href="/" className="nav-link">Projects</Nav.Link>
-            <Nav.Link href="/" className="nav-link">Skills</Nav.Link>
+          <Nav.Link href="/" className="nav-link">LeetCode</Nav.Link>
+            <Nav.Link href="/" className="nav-link">GeeksForGeeks</Nav.Link>
+            <Nav.Link href="/" className="nav-link">CodeForces</Nav.Link>
+            <Nav.Link href="/" className="nav-link">CodeChef</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

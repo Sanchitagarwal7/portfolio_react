@@ -26,13 +26,14 @@ p {
   align-items: center;
   }
 
-  .navbar-brand, .nav-link {
-  color: #fff;
+  .nav-link {
+  color: #28242F;
+  text-decoration: none;
   margin-right: 3vw;
   padding: 0.4rem;
   }
 
-  .git-link:hover, .nav-link:hover, .navbar-brand:hover {
+  .git-link:hover, .nav-link:hover{
   color: #fff;
   text-shadow:
   0 0 7px #fff,
@@ -232,11 +233,17 @@ Button {
 }
 
                                                                 /* ABOUT */
-#about {
+.about {
+  display: inline-block;
   font-family: 'Neonderthaw', cursive;
   text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 80px #00C6FE, 0 0 98px #00C6FE;
   animation: blink 11s infinite;
   -webkit-animation: ablink 11s infinite;
+}
+
+.about-hinge{
+  display: table;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes ablink {
@@ -440,7 +447,6 @@ Button {
 }
 
 #sanchit {
-  text-decoration: underline;
   margin: 50px;
   padding: 10px;
   text-align: center;
