@@ -8,11 +8,11 @@ const Projects = () => {
       <Container style={{ marginTop: "20vh" }}>
         <Row>
           <Col>
-            <h1 id="project-headline">Projects</h1>
+            <h1 className="text-shadow-purple my-name-style center-60px">Projects</h1>
           </Col>
         </Row>
         <Row xs={1} sm={1} md={2} lg={3} xl={4} className="my-3 g-4">
-          <Col className="one_card">
+          <Col>
             <Cards
               title={"Project 1"}
               body={
@@ -21,7 +21,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col className="one_card">
+          <Col>
             <Cards
               title={"Project 2"}
               body={
@@ -30,7 +30,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col className="one_card">
+          <Col>
             <Cards
               title={"Project 3"}
               body={
@@ -39,7 +39,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col className="one_card">
+          <Col>
             <Cards
               title={"Project 4"}
               body={

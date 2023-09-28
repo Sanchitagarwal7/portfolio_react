@@ -7,7 +7,7 @@ const About = () => {
       <Container style={{ marginTop: "20vh" }}>
         <Row>
           <Col>
-            <h1 id="about">About Me</h1>
+            <h1 id="about" className="center-60px">About Me</h1>
             <div className="timeline">
               <div className="outer">
                 <div className="cards">

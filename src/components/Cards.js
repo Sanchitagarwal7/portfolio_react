@@ -7,18 +7,18 @@ const Cards = (props) => {
       <span>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title id="proj_tit">{props.title}</Card.Title>
+          <Card.Title className="proj_tit">{props.title}</Card.Title>
           <p>{props.body}</p>
         </Card.Body>
         <Card.Footer>
-          <div id="proj_link" className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between proj_link">
             <span>
-              <a id="card-link" className="git-link" href="/">
+              <a className="git-link card-link" href="/">
                 Github
               </a>
             </span>
             <span>
-              <a id="card-link" className="live-link" href="/">
+              <a className="live-link card-link" href="/">
                 Live
               </a>
             </span>
