@@ -63,6 +63,9 @@ p {
     0 0 2.8rem #FE052B,
     inset 0 0 1.3rem #FE052B;
 }
+.text-red{
+  text-shadow: 0 0 5px #FE0505, 0 0 15px #FE0505, 0 0 20px #FE0505, 0 0 40px #FE0505, 0 0 60px #ff0000, 0 0 10px #FE0505, 0 0 98px #ff0000;
+}
 
 .text-shadow-red-blink {
   text-shadow: 0 0 5px #FE0505, 0 0 15px #FE0505, 0 0 20px #FE0505, 0 0 40px #FE0505, 0 0 60px #ff0000, 0 0 10px #FE0505, 0 0 98px #ff0000;
