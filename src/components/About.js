@@ -16,23 +16,22 @@ const About = () => {
               <div className="outer">
                 <div className="cards">
                   <div className="info">
-                    <h3 className="title">Title 1</h3>
+                    <h3 className="title">G.L Bajaj Institute Of Technology and Management</h3>
+                    <h5>[2021-2025]</h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                    Currently pursuing my Bachelor of Technology (B.Tech) Degree in Computer Science and Engineering with the specialisation in Artificial Intelligence and Machine Learning.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="cards">
                   <div className="info">
-                    <h3 className="title">Title 2</h3>
+                    <h3 className="title">St. Francis Convent School</h3>
+                    <h5 className="date">[2009-2021]</h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                    Completed Intermediate Degree with 92% score in 12th standard in Science Stream (PCM).
+                    <div>
+                    95% score in High School.{" "}
+                    </div>
                     </p>
                   </div>
                 </div>
