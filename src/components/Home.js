@@ -2,7 +2,6 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import image from './images/mypic.jpg';
 import ReactTyped from 'react-typed';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const Home = () => {
   return (
