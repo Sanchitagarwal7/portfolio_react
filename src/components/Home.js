@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import image from './images/mypic.jpg';
 import ReactTyped from 'react-typed';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
     <Container className='banner-top'>
         <Row>
             <Col xs={12} md={6} xl={7}>
-            <h6 className='text-shadow-red-blink'>Namaste!</h6>
+            <ScrollAnimation animateIn='animate__flash animate__infinite'>
+            <h6 className='text-red'>Namaste!</h6>
+            </ScrollAnimation>
             <h1 id="my-name-size" className='my-name-style'>I am Sanchit Agarwal</h1>
             <h4>$ <span className='text-shadow-purple'><ReactTyped strings={["Web Developer", "Programmer", "Engineer"]} typeSpeed={100} loop backSpeed={50} cursorChar='_' showCursor={true}/></span></h4>
             <p>
