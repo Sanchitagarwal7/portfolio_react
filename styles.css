@@ -13,6 +13,13 @@ p {
   line-height: 2.5;
 }
 
+@media screen and (max-width: 612px) {
+  body{
+    text-align: center;
+    align-items: center;
+  }
+}
+
 .center-60px{
   text-align: center;
   font-size: 60px;
