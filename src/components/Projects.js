@@ -17,39 +17,47 @@ const Projects = () => {
         </Row>
         <Row xs={1} sm={1} md={2} lg={3} xl={4} className="my-3 g-4">
           <Col>
+          <ScrollAnimation animateIn="animate__fadeInDown" animateOnce={true} delay={0.5}>
             <Cards
               title={"Project 1"}
               body={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, beatae?"
               }
             />
+          </ScrollAnimation>
           </Col>
 
           <Col>
+          <ScrollAnimation animateIn="animate__fadeInDown" animateOnce={true} delay={0.1}>
             <Cards
               title={"Project 2"}
               body={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, beatae?"
               }
             />
+          </ScrollAnimation>
           </Col>
 
           <Col>
+          <ScrollAnimation animateIn="animate__fadeInDown" animateOnce={true} delay={0.1}>
             <Cards
               title={"Project 3"}
               body={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, beatae?"
               }
             />
+          </ScrollAnimation>
           </Col>
 
           <Col>
+          <ScrollAnimation animateIn="animate__fadeInDown" animateOnce={true} delay={0.1}>
             <Cards
               title={"Project 4"}
               body={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, beatae?"
               }
             />
+          </ScrollAnimation>
           </Col>
         </Row>
       </Container>
