@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/portfolio_react/static/js/main.5f1a8290.js",
+    "static/media/mypic.jpg": "/portfolio_react/static/media/mypic.7d5fe6a68f916b091f4e.jpg",
+    "static/media/inotebook.jpeg": "/portfolio_react/static/media/inotebook.6813f5e798d263aa08df.jpeg",
+    "static/media/worldnews.jpeg": "/portfolio_react/static/media/worldnews.202d06f0d35c43b351ad.jpeg",
+    "static/media/tindog.jpeg": "/portfolio_react/static/media/tindog.d7c641fa8f1d156df688.jpeg",
+    "static/media/simongame.jpeg": "/portfolio_react/static/media/simongame.e25e00a720cc4bdd084f.jpeg",
+    "static/media/mysecrets.jpeg": "/portfolio_react/static/media/mysecrets.b7484e914bc4ab95eb76.jpeg",
+    "static/media/newletter.jpeg": "/portfolio_react/static/media/newletter.e056f9082edb716d709c.jpeg",
+    "index.html": "/portfolio_react/index.html",
+    "main.5f1a8290.js.map": "/portfolio_react/static/js/main.5f1a8290.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5f1a8290.js"
+  ]
+}
