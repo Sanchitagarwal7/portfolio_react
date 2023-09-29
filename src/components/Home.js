@@ -11,9 +11,7 @@ const Home = () => {
     <Container className='banner-top'>
         <Row>
             <Col xs={12} md={6} xl={7}>
-            <ScrollAnimation animateIn='animate__flash animate__infinite'>
-            <h6 className='text-red'>Namaste!</h6>
-            </ScrollAnimation>
+            <h6 className='text-red'><i class="fa-solid fa-sm fa-fade">N a m a s t e</i></h6>
             <h1 id="my-name-size" className='my-name-style'>I am Sanchit Agarwal</h1>
             <h4>$ <span className='text-shadow-purple'><ReactTyped strings={["Web Developer", "Programmer", "Engineer"]} typeSpeed={100} loop backSpeed={50} cursorChar='_' showCursor={true}/></span></h4>
             <p>
