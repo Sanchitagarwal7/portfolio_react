@@ -11,24 +11,20 @@ const Skills = () => {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col>
-                <span className="skill-name mx-1">html</span>
-                <span className="skill-name mx-1">ejs</span>
-                <span className="skill-name mx-1">css</span>
-                <span className="skill-name mx-1">bootstrap</span>
-                <span className="skill-name mx-1">javascript</span>
-                <span className="skill-name mx-1">jquery</span>
-            </Col>
+            <Col><span className="skill-name mx-1">html</span></Col>
+            <Col><span className="skill-name mx-1">ejs</span></Col>
+            <Col><span className="skill-name mx-1">css</span></Col>
+            <Col><span className="skill-name mx-1">bootstrap</span></Col>
+            <Col><span className="skill-name mx-1">javascript</span></Col>
+            <Col><span className="skill-name mx-1">jquery</span></Col>    
         </Row>
         <Row>
-            <Col>
-            <span className="skill-name mx-1">mongoose</span>
-            <span className="skill-name skill-highlight mx-1">mongodb</span>
-            <span className="skill-name skill-highlight mx-1">express.js</span>
-            <span className="skill-name skill-highlight mx-1">react</span>
-            <span className="skill-name skill-highlight mx-1">node.js</span>   
-            <span className="skill-name mx-1">c/c++</span>
-            </Col>
+            <Col><span className="skill-name mx-1">mongoose</span></Col>
+            <Col><span className="skill-name skill-highlight mx-1">mongodb</span></Col>
+            <Col><span className="skill-name skill-highlight mx-1">express.js</span></Col>
+            <Col><span className="skill-name skill-highlight mx-1">react</span></Col>
+            <Col><span className="skill-name skill-highlight mx-1">node.js</span>   </Col>
+            <Col><span className="skill-name mx-1">c/c++</span></Col>
         </Row>
     </Container>
     </>
