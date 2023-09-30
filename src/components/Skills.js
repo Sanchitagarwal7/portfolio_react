@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Skills = () => {
   return (
     <>
-    <Container>
+    <Container fluid>
         <Row style={{marginTop: "20vh"}}>
             <Col>
                 <h1 id="skill-heading" className="text-shadow-red-blink my-name-style center-60px">Skills</h1>
