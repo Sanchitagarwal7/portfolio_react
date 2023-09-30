@@ -11,20 +11,20 @@ const Skills = () => {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col className="skill-name"><span>html</span></Col>
-            <Col className="skill-name"><span>ejs</span></Col>
-            <Col className="skill-name"><span>css</span></Col>
-            <Col className="skill-name"><span >bootstrap</span></Col>
-            <Col className="skill-name"><span>javascript</span></Col>
-            <Col className="skill-name"><span>jquery</span></Col>    
+            <Col className="skill-name"><span className="skill-border">html</span></Col>
+            <Col className="skill-name"><span className="skill-border">ejs</span></Col>
+            <Col className="skill-name"><span className="skill-border">css</span></Col>
+            <Col className="skill-name"><span className="skill-border">bootstrap</span></Col>
+            <Col className="skill-name"><span className="skill-border">javascript</span></Col>
+            <Col className="skill-name"><span className="skill-border">jquery</span></Col>    
         </Row>
         <Row className="my-5">
-            <Col className="skill-name"><span>mongoose</span></Col>
-            <Col className="skill-name skill-highlight"><span>mongodb</span></Col>
-            <Col className="skill-name skill-highlight"><span>express.js</span></Col>
-            <Col className="skill-name skill-highlight"><span>react</span></Col>
-            <Col className="skill-name skill-highlight"><span>node.js</span>   </Col>
-            <Col className="skill-name"><span>c/c++</span></Col>
+            <Col className="skill-name"><span className="skill-border">mongoose</span></Col>
+            <Col className="skill-name skill-highlight"><span className="skill-border">mongodb</span></Col>
+            <Col className="skill-name skill-highlight"><span className="skill-border">express.js</span></Col>
+            <Col className="skill-name skill-highlight"><span className="skill-border">react</span></Col>
+            <Col className="skill-name skill-highlight"><span className="skill-border">node.js</span>   </Col>
+            <Col className="skill-name"><span className="skill-border">c/c++</span></Col>
         </Row>
     </Container>
     </>

@@ -444,6 +444,9 @@ Button {
   color: #a1a1af;
   text-align: center;
   padding: 2px;
+}
+
+.skill-border{
   border: 5px solid #28242F;
   border-radius: 20px;
 }
