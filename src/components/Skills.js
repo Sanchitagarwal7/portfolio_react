@@ -18,9 +18,6 @@ const Skills = () => {
                 <span className="skill-name mx-1">bootstrap</span>
                 <span className="skill-name mx-1">javascript</span>
                 <span className="skill-name mx-1">jquery</span>
- 
-
-                
             </Col>
         </Row>
         <Row>
