@@ -442,7 +442,14 @@ Button {
 
 .skill-name {
   color: #a1a1af;
-  padding: 10px;
+  text-align: center;
+  padding: 2px;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #ff8a00,
+  0 0 0.8rem #ff8a00,
+  0 0 2.8rem #ff8a00,
+  inset 0 0 1.3rem #ff8a00;
 }
 
 .skill-name:hover{
