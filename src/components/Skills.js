@@ -11,7 +11,7 @@ const Skills = () => {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col className="skill-align-center">
+            <Col>
                 <span className="skill-name mx-1">html</span>
                 <span className="skill-name mx-1">ejs</span>
                 <span className="skill-name mx-1">css</span>
@@ -21,7 +21,7 @@ const Skills = () => {
             </Col>
         </Row>
         <Row>
-            <Col className="skill-align-center">
+            <Col>
             <span className="skill-name mx-1">mongoose</span>
             <span className="skill-name skill-highlight mx-1">mongodb</span>
             <span className="skill-name skill-highlight mx-1">express.js</span>
