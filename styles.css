@@ -453,14 +453,6 @@ Button {
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.orange-border{
-  box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #ff8a00,
-  0 0 0.8rem #ff8a00,
-  0 0 2.8rem #ff8a00,
-  inset 0 0 1.3rem #ff8a00;
-}
 .skill-highlight {
   transform: scale(1.2);
   background: linear-gradient(to right, #ff8a00, #da1b60);
