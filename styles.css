@@ -443,9 +443,6 @@ Button {
 .skill-name {
   color: #a1a1af;
   padding: 10px;
-  box-sizing: border-box;
-  border: 5px solid #28242F;
-  border-radius: 20px;
 }
 
 .skill-name:hover{
