@@ -110,7 +110,7 @@ p {
 }
 
 .my-name-style {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Neonderthaw', cursive;
   text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
@@ -249,7 +249,7 @@ Button {
                                                                 /* ABOUT */
 .about {
   display: inline-block;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Neonderthaw', cursive;
   text-shadow: 0 0 5px #00C6FE, 0 0 15px #00C6FE, 0 0 20px #00C6FE, 0 0 40px #00C6FE, 0 0 60px #00C6FE, 0 0 80px #00C6FE, 0 0 98px #00C6FE;
   animation: blink 11s infinite;
   -webkit-animation: ablink 11s infinite;
@@ -468,7 +468,7 @@ Button {
 #thanks {
   text-align: center;
   font-size: 75px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Neonderthaw', cursive;
   text-shadow: 0 0 5px #011EFF, 0 0 20px #011EFF, 0 0 40px #011EFF;
 }
 
