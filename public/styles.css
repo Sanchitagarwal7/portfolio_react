@@ -1,11 +1,12 @@
 
                                                             /* BODY */
 body {
+  background-color: transparent;
   color: #fff;
   font-family: 'Tilt Neon', cursive;
   margin: 0;
 }
-.particles-js{
+#particles-js{
   background-color: #1D1D1D;
   z-index: -1;
 }
