@@ -4,10 +4,10 @@ body {
   background-color: #1D1D1D;
   color: #fff;
   font-family: 'Tilt Neon', cursive;
+  background-size: cover;
   margin: 0;
 }
 #particles-js{
-  height: 100%;
   background-color: #1D1D1D;
   z-index: -1;
 }
