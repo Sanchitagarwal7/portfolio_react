@@ -8,7 +8,6 @@ body {
 }
 #particles-js{
   background-color: #1D1D1D;
-  z-index: -1;
 }
 
 p {
