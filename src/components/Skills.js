@@ -11,20 +11,20 @@ const Skills = () => {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col className="skill-name skill-border mx-2">html</Col>
-            <Col className="skill-name skill-border mx-2">ejs</Col>
-            <Col className="skill-name skill-border mx-2">css</Col>
-            <Col className="skill-name skill-border mx-2">bootstrap</Col>
-            <Col className="skill-name skill-border mx-2">javascript</Col>
-            <Col className="skill-name skill-border mx-2">jquery</Col>    
+            <Col className="skill-name skill-border mx-2">HTML</Col>
+            <Col className="skill-name skill-border mx-2">EJS</Col>
+            <Col className="skill-name skill-border mx-2">CSS</Col>
+            <Col className="skill-name skill-border mx-2">Bootstrap</Col>
+            <Col className="skill-name skill-border mx-2">Javascript</Col>
+            <Col className="skill-name skill-border mx-2">jQuery</Col>    
         </Row>
         <Row className="my-5">
-            <Col className="skill-name skill-border mx-2">mongoose</Col>
+            <Col className="skill-name skill-border mx-2">Mongoose</Col>
             <Col className="skill-name"><span className="skill-highlight">M</span>ongodb</Col>
             <Col className="skill-name"><span className="skill-highlight">E</span>xpress.js</Col>
             <Col className="skill-name"><span className="skill-highlight">R</span>eact</Col>
             <Col className="skill-name"><span className="skill-highlight">N</span>ode.js</Col>
-            <Col className="skill-name skill-border mx-2">c/c++</Col>
+            <Col className="skill-name skill-border mx-2">C/C++</Col>
         </Row>
     </Container>
     </>
