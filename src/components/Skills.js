@@ -20,10 +20,10 @@ const Skills = () => {
         </Row>
         <Row className="my-5">
             <Col className="skill-name skill-border mx-2">mongoose</Col>
-            <Col className="skill-name skill-border"><span className="skill-highlight">m</span>ongodb</Col>
-            <Col className="skill-name skill-border"><span className="skill-highlight">e</span>xpress.js</Col>
-            <Col className="skill-name skill-border"><span className="skill-highlight">r</span>eact</Col>
-            <Col className="skill-name skill-border"><span className="skill-highlight">n</span>ode.js</Col>
+            <Col className="skill-name"><span className="skill-highlight">m</span>ongodb</Col>
+            <Col className="skill-name"><span className="skill-highlight">e</span>xpress.js</Col>
+            <Col className="skill-name"><span className="skill-highlight">r</span>eact</Col>
+            <Col className="skill-name"><span className="skill-highlight">n</span>ode.js</Col>
             <Col className="skill-name skill-border mx-2">c/c++</Col>
         </Row>
     </Container>
