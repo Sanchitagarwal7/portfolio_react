@@ -11,20 +11,20 @@ const Skills = () => {
             </Col>
         </Row>
         <Row className="my-5">
-            <Col className="skill-name mx-2"><span className="skill-border">html</span></Col>
-            <Col className="skill-name mx-2"><span className="skill-border">ejs</span></Col>
-            <Col className="skill-name mx-2"><span className="skill-border">css</span></Col>
-            <Col className="skill-name mx-2"><span className="skill-border">bootstrap</span></Col>
-            <Col className="skill-name mx-2"><span className="skill-border">javascript</span></Col>
-            <Col className="skill-name mx-2"><span className="skill-border">jquery</span></Col>    
+            <Col className="skill-name skill-border mx-2">html</Col>
+            <Col className="skill-name skill-border mx-2">ejs</Col>
+            <Col className="skill-name skill-border mx-2">css</Col>
+            <Col className="skill-name skill-border mx-2">bootstrap</Col>
+            <Col className="skill-name skill-border mx-2">javascript</Col>
+            <Col className="skill-name skill-border mx-2">jquery</Col>    
         </Row>
         <Row className="my-5">
-            <Col className="skill-name mx-2"><span className="skill-border">mongoose</span></Col>
-            <Col className="skill-name mx-2 skill-highlight"><span className="skill-border">mongodb</span></Col>
-            <Col className="skill-name mx-2 skill-highlight"><span className="skill-border">express.js</span></Col>
-            <Col className="skill-name mx-2 skill-highlight"><span className="skill-border">react</span></Col>
-            <Col className="skill-name mx-2 skill-highlight"><span className="skill-border">node.js</span>   </Col>
-            <Col className="skill-name mx-2"><span className="skill-border">c/c++</span></Col>
+            <Col className="skill-name skill-border mx-2">mongoose</Col>
+            <Col className="skill-name skill-border mx-2"><span className="skill-highlight">m</span>ongodb</Col>
+            <Col className="skill-name skill-border mx-2 skill-highlight"><span className="skill-highlight">e</span>xpress.js</Col>
+            <Col className="skill-name skill-border mx-2 skill-highlight"><span className="skill-highlight">r</span>eact</Col>
+            <Col className="skill-name skill-border mx-2 skill-highlight"><span className="skill-highlight">n</span>ode.js</Col>
+            <Col className="skill-name skill-border mx-2">c/c++</Col>
         </Row>
     </Container>
     </>
