@@ -7,7 +7,7 @@ body {
   background-size: cover;
   margin: 0;
 }
-#particles-js{
+.particles-js{
   background-color: #1D1D1D;
   z-index: -1;
 }
