@@ -439,6 +439,7 @@ Button {
 }
 
 .skill-name {
+  transform: scale(1.2);
   color: #a1a1af;
   text-align: center;
 }
@@ -448,7 +449,6 @@ Button {
 }
 
 .skill-name:hover{
-  transform: scale(1.2);
   background: linear-gradient(to right, #ff8a00, #da1b60);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
