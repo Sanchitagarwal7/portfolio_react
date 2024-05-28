@@ -483,3 +483,11 @@ Button {
 .banner-top{
   margin-top: 15vh;
 }
+
+/* BACKGROUND */
+#particles-js{
+  height: 100%;
+  background-color: #1D1D1D;
+  z-index: -1;
+}
+
