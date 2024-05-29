@@ -12,7 +12,6 @@ body {
   position: absolute;
   z-index: 10;
   z-index: 100;
-  width: 100%;
 }
 
 #particles-js {
