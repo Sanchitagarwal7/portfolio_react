@@ -7,7 +7,7 @@ const Thankyou = () => {
     <>
     <Container>
         <Row style={{marginTop: "20vh"}}>
-            <Col>
+            <Col id="resume">
                 <a href="#" class="neon-button">Download Resumé</a>
                 <h5 id='sanchit'>Made by Sanchit 
                 <span className='heart mx-3'>
