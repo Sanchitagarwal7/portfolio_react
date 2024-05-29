@@ -8,7 +8,7 @@ const Thankyou = () => {
     <Container>
         <Row style={{marginTop: "20vh"}}>
             <Col id="resume">
-                <a class="neon-button" href="src/components/resume/Sanchit_Resume.pdf" download="Sanchit-Resume">Download Resumé</a>
+                <a class="neon-button" href="Sanchit_Resume.pdf" download="Sanchit_Resume">Download Resumé</a>
                 <h5 id='sanchit'>Made by Sanchit 
                 <span className='heart mx-3'>
                 <i class="fa-regular fa-heart fa-sm fa-beat-fade" style={{"--fa-animation-duration": "0.5s"}}></i>
