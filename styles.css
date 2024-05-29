@@ -19,6 +19,7 @@ body {
   height: 100%;
   background-color: #1D1D1D;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
