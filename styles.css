@@ -479,12 +479,6 @@ Button {
 }
 
                                                           /* FOOTER */
-#thanks {
-  text-align: center;
-  font-size: 75px;
-  text-shadow: 0 0 5px #011EFF, 0 0 20px #011EFF, 0 0 40px #011EFF;
-}
-
 #sanchit {
   margin: 50px;
   padding: 10px;
@@ -503,7 +497,7 @@ Button {
 /* RESUME BUTTON */
 
 .neon-button {
-  font-size: 4rem;
+  font-size: 2rem;
 
   display: inline-block;
   cursor: pointer;
@@ -565,4 +559,7 @@ Button {
   opacity: 1;
 }
 
+Col #resume{
+  text-align: center;
+}
 
