@@ -16,7 +16,7 @@ const Home = () => {
             <p>
             <div>I am a full-stack web developer and an explorer with creative designs.</div>
             <div>I like to always learn something new and build stuff!</div>
-            <div>---Currently a third year college student---</div>
+            <div>---Currently a final year college student---</div>
             <div style={{marginTop: "3vh"}}>~based in India</div>
             </p>
             <a id='Github' className='mx-2 my-3' href='https://github.com/Sanchitagarwal7'><i className="fa-brands fa-github fa-xl"></i></a>
