@@ -24,7 +24,7 @@ const Home = () => {
             <a id='Twitter' className='mx-2 my-3' href='https://twitter.com/Sanchit27214311'><i className="fa-brands fa-square-twitter fa-xl"></i></a>
             <a id='Instagram' className='mx-2 my-3' href='https://www.instagram.com/sanchit_agarwal7/'><i className="fa-brands fa-instagram fa-xl"></i></a>
             <a id='email' className='mx-2 my-3' href='mailto:sanchita.g893@gmail.com'><i className="fa-regular fa-envelope fa-xl"></i></a>
-            <a id='2dportfolio' className='mx-2 my-3' href='https://sanchitagarwal7.github.io/2DPortfolio-deploy/'><i className="fa-solid fa-gamepad"></i></a>
+            <a id='2dportfolio' className='mx-2 my-3' href='https://sanchitagarwal7.github.io/2DPortfolio-deploy/'><i className="fa-solid fa-gamepad fa-xl"></i></a>
             </Col>
             <Col xs={12} md={6} xl={5} style={{textAlign: "center"}}>
             <img className="floating my_pic" src={image} alt="my_picture" />
