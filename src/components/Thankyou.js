@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import resume from './images/Sanchit_s_Resume.pdf'
+import resume from './images/Resume.pdf'
 
 const Thankyou = () => {
   return (
